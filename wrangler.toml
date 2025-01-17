@@ -1,0 +1,25 @@
+# 项目名称，可以是任何您喜欢的名称，这里使用 "My Static Site" 作为示例
+name = "My Static Site"
+
+# 项目类型，对于静态网站，通常使用 "javascript"
+type = "javascript"
+
+# Cloudflare账户ID，可以在Cloudflare仪表板中找到
+account_id = "1963876196"
+
+# 是否在Cloudflare的workers.dev子域上开发，通常设置为true
+workers_dev = true
+
+# 部署时的路由，格式为subdomain.workers.dev
+route = "your-subdomain.workers.dev"
+
+# 绑定到Cloudflare的zone ID，即您的域名的ID，这里需要替换成您的实际zone_id
+zone_id = "your-zone-id"
+
+# 构建设置
+[build]
+# 构建命令，对于静态网站，通常不需要构建命令，可以留空
+command = "echo 'No build step needed for static site'"
+
+# 上传的目录，对于静态网站，通常是项目的根目录
+upload_dir = "."
