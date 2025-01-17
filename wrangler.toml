@@ -1,10 +1,1 @@
-name = "xiaohai"  # 替换为您的 Worker 名称
-type = "javascript"  # 如果使用 TypeScript，请改为 "typescript"
 
-account_id = "aebb116a8837f0b3d65fa8e18119339b"  # 替换为您的 Cloudflare 账户 ID
-workers_dev = true
-compatibility_date = "2025-01-17"  # 替换为当前日期
-
-[[site]]
-bucket = "./国王"  # 指向您的“国王”文件夹
-entry-point = "workers-site"  # 如果使用 Workers Site
